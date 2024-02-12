@@ -514,7 +514,7 @@ position:absolute;
 right:0;
 top:-40px;
 font-weight:400;
-color:#302302e4d;
+color: #302302e4;
 }
 .about .about-content .education{
     /*background-color:red;*/
@@ -649,7 +649,7 @@ color:#ffffff;
 .service .service-item .service-item-inner h4{
 font-size:18px;
 margin-bottom:15px;
-color:#302302e4d;
+color:#302302e4;
 font-weight:700;
 text-transform:capitalize;
 }
@@ -965,7 +965,7 @@ padding:4px 10px;
 border-radius:5px;
 color:#ffffff;
 font-weight:600;
-font-size14px;
+font-size:14px;
 left:15px;
 bottom:15px;
 }
@@ -979,6 +979,12 @@ font-weight:700;
 color:#302e4d;
 text-transform:capitalize;
 margin-bottom:10px;
+cursor: pointer;
+}
+
+.blog .blog-item-inner .blog-info .blog-title:hover {
+    text-decoration: underline;
+    font-size: 20px;
 }
 .blog .blog-item-inner .blog-info .blog-description{
 font-size:16px;
